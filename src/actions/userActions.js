@@ -27,8 +27,8 @@ export function placeBet(value) {
         bet: value
       });
     };
-  } else if (value.match(regexTestForResult) && value.split(':')[3]!== value.split(':')[1]
-    && value.split(':')[1]!== value.split(':')[2] && value.split(':')[2]!== value.split(':')[3]) {
+  } else if (value.match(regexTestForResult) && value.split(':')[3] !== value.split(':')[1]
+    && value.split(':')[1] !== value.split(':')[2] && value.split(':')[2] !== value.split(':')[3]) {
     return (dispatch, getState) => {
       const dividends = findDividend(getState().bet, value);
       dispatch({

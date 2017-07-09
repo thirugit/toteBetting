@@ -5,6 +5,6 @@ export function Dividends({ dividends }) {
   return (<div className="flex-box">{finalDividends}</div>);
 }
 Dividends.propTypes = {
-  dividends: PropTypes.array
+  dividends: PropTypes.arrayOf(React.PropTypes.string)
 };
 export default Dividends;

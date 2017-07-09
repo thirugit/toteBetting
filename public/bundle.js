@@ -22257,12 +22257,17 @@
 	      'p',
 	      { className: 'error' },
 	      props.error
-	    ) : null,
+	    ) : _react2['default'].createElement(
+	      'p',
+	      { className: 'error' },
+	      '\xA0'
+	    ),
 	    _react2['default'].createElement(_Bets2['default'], props),
 	    _react2['default'].createElement(_Dividends2['default'], props)
 	  );
 	};
-	Layout.PropTypes = {
+
+	Layout.propTypes = {
 	  error: _react.PropTypes.string
 	};
 	var mapStateToProps = function mapStateToProps(state) {
@@ -24693,7 +24698,7 @@
 	  );
 	};
 	Bets.propTypes = {
-	  bet: _react.PropTypes.array,
+	  bet: _react.PropTypes.arrayOf(_react2['default'].PropTypes.string),
 	  result: _react.PropTypes.string
 	};
 	exports['default'] = Bets;
@@ -24732,7 +24737,7 @@
 	  );
 	}
 	Dividends.propTypes = {
-	  dividends: _react.PropTypes.array
+	  dividends: _react.PropTypes.arrayOf(_react2['default'].PropTypes.string)
 	};
 	exports['default'] = Dividends;
 

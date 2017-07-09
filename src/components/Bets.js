@@ -9,7 +9,7 @@ export const Bets = ({ bet, result }) => {
   </div>);
 };
 Bets.propTypes = {
-  bet: PropTypes.array,
+  bet: PropTypes.arrayOf(React.PropTypes.string),
   result: PropTypes.string
 };
 export default Bets;

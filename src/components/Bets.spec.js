@@ -10,7 +10,7 @@ let wrapper;
 
 describe('Bets', () => {
   beforeEach(() => {
-    const props = {
+    props = {
       bet: ['Bet:W:1:2'],
       result: 'Result:1:2:3'
     };

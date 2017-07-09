@@ -1,0 +1,6 @@
+
+# Created by https://www.gitignore.io/api/node,osx,windows,webstorm,sublimetext,visualstudiocode,bower,grunt
+
+# Dependency directories
+node_modules
+coverage
