@@ -1,0 +1,80 @@
+body {
+    font-family: "BentonSansRegular", Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    line-height: 18px;
+    color: #004A6A;
+    min-width: 360px;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    box-sizing: border-box;
+}
+.grid {
+	width: 75%;
+	margin: 0 auto;
+}
+.flex-box{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.bets{
+    background: #4B77BE;
+    min-width: 100px;
+    color: #FFFFFF;
+    padding: 10px;
+    font-size: 16px;
+    margin: 5px;
+    text-align: center;
+}
+.content {
+    position:absolute;
+    cursor: pointer;
+    height:100%;
+    width:100%;
+}
+.input-box {
+	width: 95%;
+    height: 25px;
+    border: 2px solid #DADADA;
+    padding: 5px;
+}
+.input-box:focus {
+	outline: 2px solid #004A6A;
+}
+.hidden {
+	display: none;
+}
+.error {
+	font-family: Arial;
+	font-size: 14px;
+	color: #FB8C00;
+	font-weight: 100;
+	margin-top: 5px;
+}
+.go-butn {
+	width: 47%;
+	cursor: pointer;
+    outline: 1px solid #004A6A;
+    background-color: #FFFFFF;
+    border: none;
+    height: 38px;
+    font-size: 12px;
+    margin-top: 10px;
+    margin-left: 7px;
+}
+.go-butn:hover, .go-butn:focus {
+	background-color: #F5F5F5;
+	outline: none;
+}
+.result {
+    width: 94%;
+    background-color: #03A678;
+    margin: 5px;
+    padding: 10px;
+    font-size: 16px;
+    color: #FFFFFF;
+    text-align: center;
+}
+.dividend {
+    background-color: #03A678;
+}
